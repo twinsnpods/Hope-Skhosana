@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   base: '/Hope-Skhosana/',
-  plugins: [react(), tailwindcss()],
+  plugins: [react(), tailwindcss(),],
   server: {
     open: true,
     port: 3001,

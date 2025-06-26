@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoIosMailUnread } from "react-icons/io";
 
-function Navbar() {
+function navbar() {
   return (
     <nav className="bg-gray-500 p-2 md:p-4 fixed top-0 left-0 w-full z-50">
       <div className="container mx-auto">
@@ -36,4 +36,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default navbar;

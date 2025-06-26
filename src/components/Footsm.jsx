@@ -4,7 +4,7 @@ import { motion as Motion } from 'framer-motion';
 
 const Footsm = () => {
   return (
-    <div className='flex flex-col justify-center items-center bg-black gap-8 pt-8 px-2 md:gap-10 md:pt-10 md:px-4'>
+    <div className='flex flex-col justify-center items-center bg-black gap-8 pt-8 px-2 md:gap-10 md:pt-10 md:px-4 pb-10'>
       <div className='flex flex-col md:flex-row justify-center items-center gap-6 md:gap-10 w-full'>
         <Motion.div
           whileInView={{ y: [0, -20, 0] }}

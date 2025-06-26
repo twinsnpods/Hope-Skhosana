@@ -78,7 +78,7 @@ const GetInTouch = () => {
                             initial={{ x: +100, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1 }}
-                            className="w-full h-full max-w-xl bg-gray-700 p-6 md:p-8 rounded-2xl border border-gray-300 shadow-2xl flex flex-col gap-4 md:gap-6"
+                            className="w-full h-full max-w-xl bg-gray-700 p-6 md:p-8 rounded-2xl border border-gray-300 shadow-2xl flex flex-col gap-4 md:gap-6 pb-10"
                             id="get-in-touch"
                         >
                             <label className="text-lg md:text-xl font-bold text-black">Name</label>

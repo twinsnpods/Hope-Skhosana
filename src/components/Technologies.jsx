@@ -11,7 +11,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 function Technologies() {
   return (
-    <div className="flex flex-col justify-center items-center bg-black gap-10 pt-10 px-4 pb-20 pl-25 pr-25">
+    <div className="flex flex-col justify-center items-center bg-black gap-10 pt-10 px-4 pl-25 pr-25">
       <motion.h1
         initial={{ y: -100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -22,7 +22,7 @@ function Technologies() {
       </motion.h1>
 
       {/* First Row */}
-      <div className="flex flex-wrap md:flex-nowrap justify-center items-center gap-8 md:gap-20 w-full text-center md:text-left">
+      <div className="flex flex-wrap md:flex-nowrap justify-center items-center gap-8 md:gap-20 w-full text-center md:text-left pt-10">
         <motion.div
           whileInView={{ y: [0, -20, 0] }}
           transition={{

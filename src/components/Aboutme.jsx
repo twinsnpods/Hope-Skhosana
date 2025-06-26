@@ -21,7 +21,7 @@ function Aboutme() {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
           viewport={{ once: true, amount: 0.5 }}
-          className="h-84 w-auto md:h-80 rounded-2xl shadow-lg"
+          className="h-64 w-auto md:h-40 rounded-2xl shadow-lg"
         />
         <p className="text-2xl text-gray-600 ">figma</p>
         {/* Image with motion from left */}
@@ -31,7 +31,7 @@ function Aboutme() {
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
-          className="h-64 w-auto md:h-55 rounded-2xl shadow-lg"
+          className="h-64 w-auto md:h-40 rounded-2xl shadow-lg"
         />
         </div>
 

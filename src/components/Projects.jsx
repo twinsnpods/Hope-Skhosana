@@ -23,7 +23,7 @@ const Projects = () => {
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
                 className="text-lg md:text-2xl text-gray-400 text-center break-all"
-            >https://twinsnpods.github.io/MDentalStudio/
+            ><a href="https://twinsnpods.github.io/MDentalStudio/">https://twinsnpods.github.io/MDentalStudio/</a>
             </motion.h2>
             <div className="flex flex-col md:flex-row justify-center items-stretch gap-8 md:gap-10 w-full">
                 {/* Figma Prototypes */}
